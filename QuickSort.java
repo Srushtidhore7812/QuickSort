@@ -1,4 +1,7 @@
-public class QuickSortHoare {
+import java.lang.*;
+import java.util.Scanner;
+
+public class QuickSort {
 
     static int partition(int[] arr, int low, int high) {
         int pivot = arr[low];
@@ -52,6 +55,6 @@ public class QuickSortHoare {
         System.out.println("Sorted array:");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
-        }
-    }
+        }
+    }
 }
